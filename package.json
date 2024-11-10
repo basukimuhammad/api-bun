@@ -1,0 +1,27 @@
+{
+  "name": "@wudysoft/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "dev": "bun run --watch index.js",
+    "build": "bun build index.js",
+    "start": "NODE_ENV=production bun index.js",
+    "test": "bun test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elysiajs/cors": "*",
+    "@elysiajs/static": "*",
+    "@elysiajs/swagger": "*",
+    "elysia": "*",
+    "node-fetch": "*",
+    "cheerio": "*",
+    "logestic": "*"
+  },
+  "devDependencies": {
+    "bun-types": "*"
+  }
+}
